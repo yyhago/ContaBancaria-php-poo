@@ -2,16 +2,15 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use App\ContaBancaria;
+use App\ContasTipo\ContaCorrente;
 
-$conta = new ContaBancaria(
-  'Banco Itau',
-  'Yhago Felipe',
-  '4239',
-  '42942-43',
-  '2000',
+$conta = new ContaCorrente(
+    'Banco do Brasil', // banco
+    'Yhago Felipe', // nomeTitular
+    '8244', // numeroAgencia
+    '57354-10', // numeroConta
+    0 // saldo
 );
-
 
 echo $conta->obterSaldo();
 echo PHP_EOL;
