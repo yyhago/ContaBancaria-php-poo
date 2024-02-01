@@ -1,0 +1,17 @@
+{
+    "name": "administrator/modulo-composer-1",
+    "description": "POO PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yhago Felipe",
+            "email": "yhago.felipe.teles@gmail.com"
+        }
+    ],
+    "require": {}
+}
